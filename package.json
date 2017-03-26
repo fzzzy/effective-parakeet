@@ -1,0 +1,25 @@
+{
+  "name": "effective-parakeet",
+  "version": "0.0.1",
+  "author": "Donovan Preston <donovanpreston@gmail.com>",
+  "description": "async/await test",
+  "license": "MIT",
+  "scripts": {
+    "start": "if [ ! -d \"node_modules\" ]; then npm install; fi && npm run webpack && node run.js",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch",
+    "clean": "rm -rf node_modules build"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-stage-0": "6.22.0",
+    "babel-preset-react": "6.23.0",
+    "webpack": "2.3.2",
+    "webpack-dev-server": "2.4.2"
+  }
+}
